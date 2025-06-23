@@ -28,50 +28,42 @@ A modern Next.js 15 boilerplate built with Tailwind CSS, designed for freelancer
 
 ## 📁 Project Structure
 
-```bash
-legal-esign-boilerplate/
-├── app/
-│   ├── layout.jsx                  # Root layout
-│   ├── globals.css                 # Tailwind base styles
-│   │
-│   ├── dashboard/
-│   │   └── page.jsx                # User's contract dashboard
-│   │
-│   ├── contracts/
-│   │   └── [contractId]/
-│   │       ├── page.jsx            # View contract & sign
-│   │       ├── edit.jsx            # Edit contract
-│   │       └── actions.js          # Server actions
-│   │
-│   └── auth/
-│       ├── login.jsx               # Login page
-│       └── signup.jsx              # Signup page
-│
-├── components/                     # Shared UI components
-│   ├── Navbar.jsx
-│   ├── ContractList.jsx
-│   ├── ContractEditor.jsx
-│   ├── SignaturePad.jsx
-│   └── PdfPreview.jsx
-│
-├── lib/                            # Utility functions
-│   ├── pdfUtils.js
-│   ├── emailUtils.js
-│   └── signatureUtils.js
-│
-├── public/                         # Static assets
-├── .gitignore
-├── README.md
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── next.config.js
+- `legal-esign-boilerplate/`
+  - `app/`
+    - `layout.jsx` – Root layout
+    - `globals.css` – Tailwind base styles
+    - `dashboard/`
+      - `page.jsx` – User's contract dashboard
+    - `contracts/[contractId]/`
+      - `page.jsx` – View contract & sign
+      - `edit.jsx` – Edit contract
+      - `actions.js` – Server actions
+    - `auth/`
+      - `login.jsx` – Login page
+      - `signup.jsx` – Signup page
+  - `components/` – Shared UI components
+    - `Navbar.jsx`
+    - `ContractList.jsx`
+    - `ContractEditor.jsx`
+    - `SignaturePad.jsx`
+    - `PdfPreview.jsx`
+  - `lib/` – Utility functions
+    - `pdfUtils.js`
+    - `emailUtils.js`
+    - `signatureUtils.js`
+  - `public/` – Static assets
+  - `.gitignore`
+  - `README.md`
+  - `tailwind.config.js`
+  - `postcss.config.js`
+  - `package.json`
+  - `next.config.js`
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repo
 
-git clone https://github.com/yourusername/legal-esign-boilerplate.git
+```bash git clone https://github.com/yourusername/legal-esign-boilerplate.git```
 cd legal-esign-boilerplate
 
 ### 2.  Install the dependencies
