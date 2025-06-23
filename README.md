@@ -63,7 +63,7 @@ A modern Next.js 15 boilerplate built with Tailwind CSS, designed for freelancer
 
 ### 1. Clone the Repo
 
-```bash git clone https://github.com/yourusername/legal-esign-boilerplate.git```
+<pre lang="markdown">```bash clone https://github.com/yourusername/legal-esign-boilerplate.git```</pre>
 cd legal-esign-boilerplate
 
 ### 2.  Install the dependencies
