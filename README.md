@@ -68,15 +68,15 @@ A modern Next.js 15 boilerplate built with Tailwind CSS, designed for freelancer
 
 ### 2.  Install the dependencies
 
-npm install
+<pre lang="markdown">npm install</pre>
 
 ### 3.  Install the dependencies
 
-npm run dev
+<pre lang="markdown">npm run dev</pre>
 
 Then open your browser to http://localhost:3000/dashboard
 
-📌 Roadmap
+## 📌 Roadmap
  PDF export with signatures
 
  Email invite and confirmation flow
@@ -93,11 +93,11 @@ Then open your browser to http://localhost:3000/dashboard
 
  Ready-to-deploy Vercel config
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Built Joseph Hangarter
 
