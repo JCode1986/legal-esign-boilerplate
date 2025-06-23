@@ -27,21 +27,45 @@ A modern Next.js 15 boilerplate built with Tailwind CSS, designed for freelancer
 ---
 
 ## 📁 Project Structure
+
 legal-esign-boilerplate/
 ├── app/
-│ ├── dashboard/
-│ ├── contracts/[contractId]/
-│ └── auth/
-├── components/
-│ ├── Navbar.jsx
-│ ├── ContractList.jsx
-│ ├── ContractEditor.jsx
-│ ├── SignaturePad.jsx
-│ └── PdfPreview.jsx
-├── actions/
-├── lib/
-├── styles/
-└── README.md
+│   ├── layout.jsx                     # Root layout
+│   ├── globals.css                    # Tailwind base styles
+│
+│   ├── dashboard/
+│   │   └── page.jsx                   # User's contract dashboard
+│
+│   ├── contracts/
+│   │   └── [contractId]/
+│   │       ├── page.jsx              # View contract & sign
+│   │       ├── edit.jsx              # Edit contract
+│   │       └── actions.js            # Server actions: signContract, saveSignature
+│
+│   └── auth/
+│       ├── login.jsx                 # Login page
+│       └── signup.jsx                # Signup page
+│
+├── components/                       # Shared UI components
+│   ├── Navbar.jsx
+│   ├── ContractList.jsx
+│   ├── ContractEditor.jsx
+│   ├── SignaturePad.jsx
+│   └── PdfPreview.jsx
+│
+├── lib/                              # Utility functions
+│   ├── pdfUtils.js                   # Generate or preview PDF
+│   ├── emailUtils.js                 # Send signing invites
+│   └── signatureUtils.js             # Save/load signature blobs
+│
+├── public/                           # Static assets (e.g. logo, icons)
+│
+├── .gitignore
+├── README.md
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── next.config.js
 
 
 ## 🚀 Getting Started
